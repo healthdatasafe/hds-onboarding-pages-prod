@@ -1,3 +1,32 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>HDS Onboarding (prod)</title></head>
-<body><p>HDS onboarding-pages prod — pending first deploy. See <a href="https://demo-onboard.datasafe.dev">demo-onboard.datasafe.dev</a>.</p></body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HDS Onboarding</title>
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="description" content="Welcome to HDS — guided onboarding" />
+    <meta name="author" content="Health Data Safe" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
+    <script type="module" crossorigin src="/assets/index-Dd0y8QAv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BIKldtiP.css">
+  </head>
+
+  <body>
+    <!-- SPA redirect handler for GitHub Pages (spa-github-pages) -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location))
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
